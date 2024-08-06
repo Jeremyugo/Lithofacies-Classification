@@ -4,7 +4,7 @@ This repository contains code for building a custom production/inference-ready l
 
 The training data set used contains >1 million instances of well logs, 12 lithology classes, NPD lithostratigraphy, and well X, Y position. Overall three (3) datasets were provided, each with different lithology distribution to purposely penalize models that overfit the training set.
 
-![alt text](image.png)
+![alt text](./images/image.png)
 
 ### Project Organization 
 This project is organized into the following directories:
