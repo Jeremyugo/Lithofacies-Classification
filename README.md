@@ -6,7 +6,18 @@ The training data set used contains >1 million instances of well logs, 12 lithol
 
 ![alt text](./images/image.png)
 
-### Project Organization 
+## Data
+The dataset contains 118 well data in total, 98 aimed for training, 10 for testing, and the rest as blind well data from offshore Norway. In addition, well coordinates and interpreted lithofacies and lithostratigraphy, these well log measurements are also included: CALI, RDEP, RHOB, DHRO, SGR, GR, RMED, RMIC, NPHI, PEF, RSHA, DTC, SP, BS, ROP, DTS, DCAL, MUDWEIGHT. Except for GR and depth, other logs have missing values that were taken care of during the preparation process.
+
+The figure below shows the geographical locations of the wells. Train wells are in red, test in blue, and blind wells in green.
+
+**Well Locations**
+![alt text](./images/well_locations.png)
+**Cross Plots**
+
+![alt text](./images/cross_plots.png)
+
+## Project Organization 
 This project is organized into the following directories:
 - `data`: contains custom penalty matrix for model evaluation. [link to full dataset](https://github.com/bolgebrygg/Force-2020-Machine-Learning-competition/tree/master/lithology_competition/data)
 - `notebooks`: contains notebooks for experimentation, and sub-folder for custom mlflow model
@@ -24,8 +35,8 @@ To replicate this repo, or use it as a basis for experimentation.
 | Evaluated dataset | Custom Score (penalty matrix) | f1-score (weighted) |
 |----------|----------|----------|
 | Train | - 0.2969 | 88.3 % |
-| Test set 1 | - 0.5375 | 77.5 % |
-| Test set 2 | - 0.4627 | 80.0 % |
+| Test set  | - 0.5375 | 77.5 % |
+| Blind test set | - 0.4627 | 80.0 % |
 
 
 ### Well logs
