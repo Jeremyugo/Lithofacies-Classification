@@ -29,5 +29,5 @@ To replicate this repo, or use it as a basis for experimentation.
 
 
 ### Well logs
-![alt text](<wellslogs 1 .png>)
-![alt text](<wellslogs 2 .png>)
+![alt text](./images/wellslogs_1.png)
+![alt text](./images/wellslogs_2.png)
